@@ -62,9 +62,6 @@ bin_dir = bin
 android.accept_sdk_license = True
 
 [p4a]
-# Point to local patched pyjnius recipe
-local_recipes = ./p4a_recipes
 p4a.bootstrap = sdl2
-p4a.branch = develop
-python_version = 3.10
+
 
